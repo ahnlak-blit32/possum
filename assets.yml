@@ -1,8 +1,26 @@
-# All these assets will be created in assets.cpp, which CMake will
-# link automagically.
-# References can be picked up by including assets.hpp
+# The SpaceShooterAssetPack images are all from itch.io; under their license
+# conditions, the files are *not* included in this repo but they are available
+# directly from Gustavo Vituri - https://gvituri.itch.io/space-shooter
+#
 
-assets.cpp:
-  assets/no-image.png:
-    name: asset_no_image
+ssap.cpp:
+  prefix: ssap_
 
+  assets/SpaceShooterAssetPack_BackGrounds.png:
+    packed: no
+    name: backgrounds
+  assets/SpaceShooterAssetPack_Characters.png:
+    packed: no
+    name: characters
+  assets/SpaceShooterAssetPack_IU.png:
+    packed: no
+    name: ui
+  assets/SpaceShooterAssetPack_Miscellaneous.png:
+    packed: no
+    name: misc
+  assets/SpaceShooterAssetPack_Projectiles.png:
+    packed: no
+    name: projectiles
+  assets/SpaceShooterAssetPack_Ships.png:
+    packed: no
+    name: ships

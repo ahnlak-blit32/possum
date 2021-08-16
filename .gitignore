@@ -1,2 +1,7 @@
 build/
 build.*/
+*.sublime-*
+assets/SpaceShooterAssetPack_*
+
+stub.cpp
+stub.hpp

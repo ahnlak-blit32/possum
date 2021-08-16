@@ -1,33 +1,18 @@
 # 32Blit Boilerplate
 
-![Build](https://github.com/32blit/32blit-boilerplate/workflows/Build/badge.svg)
+![Build](https://github.com/ahnlak-blit32/possum/workflows/Build/badge.svg)
 
-This is a basic template for starting 32blit projects. It shows the basic
-code layout and asset pipeline, hopefully giving folk a starting point for
-any new projects.
+POSSUM is Pete's Own Space Shooter Using Microcontrollers!
 
-It's based on the original `template` project from the 
-[32Blit Beta](https://github.com/pimoroni/32blit-beta), with added asset
-handling, and some tidying up to fit in with how I do things.
+It's a plain old vertical space shooter, written for the 32Blit and PicoSystem
+consoles, but also working under SDL on a variety of desktop platforms.
 
-## Usage
+# License
 
-[Use this template](https://github.com/32blit/32blit-boilerplate/generate) to
-generate your own project.
+The code is all released under the MIT License, as usual. The graphics are from
+[Gustavo Vituri on itch.io](https://gvituri.itch.io/space-shooter), and in 
+accordance with that license, they are not included in this repository.
 
-* Edit the CMakeList.txt file to set the name of your project
-* Edit the metadata.yml file to set the information for your project
-* Edit the LICENSE file to set your name on the license
-* Write lots of super cool code!
-
-You should then be able to follow the usual build instructions.
-
-For local builds this is:
-```
-mkdir build
-cd build
-cmake -D32BLIT_DIR=/path/to/32blit-sdk/ ..
-```
-
-Platform/Editor specific insctuctions [can be found in the main 32blit repo](https://github.com/pimoroni/32blit-beta#more-docs)
-(For Visual Studio, you should follow the "Option 2" instructions, as the boilerplate does not contain a solution file)
+They are free, however, so you can grab them directly from itch.io (stopping to
+give the talented Mr Vituri a donation) and drop them into the assets folder
+if you want to build from source.

@@ -1,10 +1,10 @@
-title: game title
-description: game description
-author: you
+title: Possum
+description: Space-shooting Mayhem!
+author: ahnlak
 splash:
-  file: assets/no-image.png
+  file: assets/possum-image.png
 icon:
-  file: assets/no-icon.png
+  file: assets/possum-icon.png
 version: v0.0.1
-category: game # game, demo, utility, ...
-url: https://github.com/32blit/32blit-boilerplate
+category: game
+url: https://github.com/ahnlak-blit32/possum
